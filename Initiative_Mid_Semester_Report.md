@@ -28,7 +28,7 @@ flowchart TD
     E -- Yes --> F[Document findings\nand finalize procedure]
     F --> G[Share with HAAG manager group\nfor broader adoption]
     G --> H([End: Sustainable engagement model])
-    E -- No --> I[Revise engagement approach\ne.g. switch to async updates]
+    E -- No --> I[Revise engagement approach\n switch to async updates]
     I --> C
 ```
 
