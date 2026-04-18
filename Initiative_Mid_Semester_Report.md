@@ -21,10 +21,10 @@ This initiative designs a Standardized Faculty Engagement and Retention Framewor
 ### 3. Method for testing (flowchart description).
 ```mermaid
 flowchart TD
-    A([Start: Identify engagement hypothesis]) --> B[Define KPIs\ne.g. faculty response rate, async adoption]
+    A([Start: Identify engagement hypothesis]) --> B[Define KPIs\n faculty response rate, async adoption]
     B --> C[Collect data\nSlack patterns · faculty check-ins · Excel tracker]
     C --> D[Analyze stakeholder responses\nagainst baseline expectations]
-    D --> E{KPI threshold met?}
+    D --> E{threshold met?}
     E -- Yes --> F[Document findings\nand finalize procedure]
     F --> G[Share with HAAG manager group\nfor broader adoption]
     G --> H([End: Sustainable engagement model])
