@@ -18,13 +18,13 @@ This initiative designs a Standardized Faculty Engagement and Retention Framewor
 
 **Still to measure:** Faculty satisfaction scores, clarity of expectations, communication consistency, and pilot vs. control group comparison after the mid-semester survey.
 
-### 3. Method for testing (flowchart description).
+### 3. Method for testing (flowchart description)
 ```mermaid
 flowchart TD
     A([Start: Identify engagement hypothesis]) --> B[Define KPIs\n faculty response rate, async adoption]
     B --> C[Collect data\nSlack patterns · faculty check-ins · Excel tracker]
     C --> D[Analyze stakeholder responses\nagainst baseline expectations]
-    D --> E{threshold met?}
+    D --> E{threshold met/KPI?}
     E -- Yes --> F[Document findings\nand finalize procedure]
     F --> G[Share with HAAG manager group\nfor broader adoption]
     G --> H([End: Sustainable engagement model])
@@ -48,6 +48,6 @@ Progress tracked by framework stage completion. Positive indicators include facu
 
 ### 7. Obstacles / bottlenecks.
 
-**Anticipated:** Time constraint — full semester needed for retention outcomes, so proxy metrics (satisfaction, consistency) are used.
+**Anticipated:** Time constraint full semester needed for retention outcomes, so proxy metrics (satisfaction, consistency) are used.
 
 **Unexpected:** Faculty preferences vary (Slack vs. email vs. less frequent contact), requiring flexibility in the standardized schedule while maintaining a minimum baseline.
