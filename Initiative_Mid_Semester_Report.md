@@ -19,16 +19,18 @@ This initiative designs a Standardized Faculty Engagement and Retention Framewor
 **Still to measure:** Faculty satisfaction scores, clarity of expectations, communication consistency, and pilot vs. control group comparison after the mid-semester survey.
 
 ### 3. Method for testing (flowchart description).
-
-**Stage 1 — Discovery:** Review retention data, observe Slack patterns, conduct faculty conversations.
-
-**Stage 2 — Develop:** Create communication schedule, check-in template, and feedback survey.
-
-**Stage 3 — Pilot:** Implement with a pilot group; keep a control group on the current approach.
-
-**Stage 4 — Evaluate:** Distribute mid-semester survey to both groups and compare results.
-
-**Stage 5 — Report:** Document gaps, revise templates, produce finalized procedure.
+```mermaid
+flowchart TD
+    A([Start: Identify engagement hypothesis]) --> B[Define KPIs\ne.g. faculty response rate, async adoption]
+    B --> C[Collect data\nSlack patterns · faculty check-ins · Excel tracker]
+    C --> D[Analyze stakeholder responses\nagainst baseline expectations]
+    D --> E{KPI threshold met?}
+    E -- Yes --> F[Document findings\nand finalize procedure]
+    F --> G[Share with HAAG manager group\nfor broader adoption]
+    G --> H([End: Sustainable engagement model])
+    E -- No --> I[Revise engagement approach\ne.g. switch to async updates]
+    I --> C
+```
 
 ### 4. Stakeholder engagement.
 
